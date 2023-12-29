@@ -20,3 +20,133 @@
   padding: 0;
   box-sizing: border-box;
 }
+span {
+  display: inline-block;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: salmon;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+
+  font-family: "Hanken Grotesk", sans-serif;
+}
+.container {
+  background-color: aliceblue;
+  width: 375px;
+  min-width: 375px;
+  height: 100%;
+}
+
+/* styles for the sub card left */
+.card-left {
+  background: var(--gradient-royal-blue);
+  height: 48%;
+  border-radius: 0 0 15% 15%;
+}
+.card-left_container {
+  width: 260px;
+  margin: 0 auto;
+}
+.Result {
+  margin: 2em;
+  font-weight: 500;
+}
+.Your-result {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  background: var(--gradient-light-slate-blue);
+  border-radius: 100%;
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.Your-result div:nth-child(1) {
+  font-size: 4em;
+  font-weight: 800;
+}
+.Your-result div:nth-child(2) {
+  color: var(--neutral-light-lavender);
+}
+.description {
+  margin: 2em 0;
+}
+.state {
+  display: block;
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-bottom: .5em;
+}
+
+/*  /* styles for the sub card right */
+
+.card-right {
+  /* background: azure; */
+  height: 52%;
+  color: black;
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+
+/* styles for palettes of the final result */
+.card-right_container {
+  text-align: left;
+  width: 340px;
+  margin: auto;
+}
+
+.summary-result {
+  width: 340px;
+  height: 50px;
+  margin: 1em auto;
+  padding: 0 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.card-right_container div:nth-child(2) {
+  color: var(--primary-light-red);
+  background: hsl(0, 100%, 67%, 0.1);
+}
+.card-right_container div:nth-child(3) {
+  color: var(--primary-orangey-yellow);
+  background: hsl(39, 100%, 56%, 0.1);
+}
+.card-right_container div:nth-child(4) {
+  color: var(--primary-green-teal);
+  background: hsl(166, 100%, 37%, 0.1);
+}
+.card-right_container div:nth-child(5) {
+  color: var(--primary--cobalt-blue);
+  background: hsl(234, 85%, 45%, 0.1);
+}
+.summary-result span:nth-child(1) {
+  display: flex;
+}
+.summary-result span:nth-child(1) i {
+  margin-right: 10px;
+}
+
+/* button styles */
+.btn {
+  background: var(--neutral-gray-blue);
+  color: white;
+  width: 340px;
+  height: 50px;
+  border: none;
+  border-radius: 50px;
+  font-size: 1.3em;
+  font-weight: 500;
+}
