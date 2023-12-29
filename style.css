@@ -59,7 +59,7 @@ body {
   margin: 0 auto;
 }
 .Result {
-  margin: 2em;
+  margin: 1em 0;
   font-weight: 500;
 }
 .Your-result {
@@ -161,7 +161,7 @@ body {
 
 /* for pc */
 
-@media screen and (max-width: 1440px) {
+@media only screen and (min-width: 1440px) {
  .container{
   width: 600px;
   height: auto;
