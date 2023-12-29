@@ -63,7 +63,7 @@ body {
 }
 .Your-result {
   background: radial-gradient(
-    ellipse at top,
+    circle,
     var(--gradient-royal-blue) 50%,
     var(--gradient-light-slate-blue)
   );
