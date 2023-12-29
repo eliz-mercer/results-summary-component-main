@@ -62,7 +62,11 @@ body {
   font-weight: 500;
 }
 .Your-result {
-  background: radial-gradient(ellipse at top, var(--gradient-royal-blue) 50% ,var(--gradient-light-slate-blue) );
+  background: radial-gradient(
+    ellipse at top,
+    var(--gradient-royal-blue) 50%,
+    var(--gradient-light-slate-blue)
+  );
   width: 150px;
   height: 150px;
   margin: 0 auto;
